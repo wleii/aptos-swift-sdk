@@ -34,7 +34,7 @@ jobs:
         with:
           target: Aptos
           output: ./_site
-          hotsing-base-path: aptos-swift-sdk
+          hotsing-base-path: 'aptos-swift-sdk'
           disable-indexing: 'true'
           transform-for-static-hosting: 'true'
       - name: Upload artifact
