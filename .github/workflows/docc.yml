@@ -33,7 +33,7 @@ jobs:
         run: 
           | 
           swift package --allow-writing-to-directory ./_site \
-          generate-documentation  --target Aptos \
+          generate-documentation  --product Aptos \
           --disable-indexing \
           --transform-for-static-hosting \
           --hosting-base-path aptos-swift-sdk \
